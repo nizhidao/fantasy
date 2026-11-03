@@ -1,3 +1,14 @@
-plugins {
-    id 'com.android.application' version '8.2.2' apply false
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.example.galaxybatteryremapper'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.example.galaxybatteryremapper'
+        minSdk 26
+        targetSdk 32
+        versionCode 1
+        versionName '1.0'
+    }
 }
